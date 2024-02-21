@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaNodeJs,
   FaSwift,
+  FaLinkedin,
 } from "react-icons/fa";
 
 import wowcraft from "./Images/WowCraft.png";
@@ -35,39 +36,40 @@ function App() {
             <h1 className="smalltext">About me</h1>
 
             <p className="paragraph">
-              I am a young Junior developer with a passion for frontend aswell
-              as mobile frameworks to create unique and appealing applications
+              🚀 Hey there, I'm Justin! At 24, I'm cruising through the world of
+              coding, fueled by a passion for crafting seamless user
+              experiences. As a junior developer with a sweet spot for frontend
+              and mobile development, I'm on a mission to turn pixels into
+              captivating digital adventures.
+              <br />
+              <br />
+              Beyond the lines of code, you'll catch me daydreaming about sleek
+              car designs. Yes, I'm that guy who finds the poetry in every
+              engine rev and admires the dance of algorithms and automobiles
+              alike.
+              <br />
+              <br />
+              But what really drives me? Connecting with people. I'm the
+              friendly neighborhood developer who believes in the power of
+              camaraderie. Need a coding buddy, a tech troubleshooter, or just
+              someone to share car stories with? I'm your go-to guy.
+              <br />
+              <br />
+              So, buckle up and join me on this coding journey, where tech meets
+              creativity, and friendships are forged in lines of code!
+              <br />
+              <br />
+              👨‍💻✨ Let's build something amazing together!
             </p>
             <br />
             <br />
 
-            <h1 className="smalltext">Download cv</h1>
+            {/* <h1 className="smalltext">Download cv</h1> */}
             <a className="button" href="/cv.pdf" download>
               download cv
             </a>
 
-            <div className="MyInfo">
-              {/* <div className="copy">
-                <p className="title">Name </p>
-                <p className="titleCopy">Justin</p>
-              </div>
-              <div className="copy">
-                <p className="title">Age </p>
-                <p className="titleCopy">24</p>
-              </div>
-              <div className="copy">
-                <p className="title">Phone </p>
-                <p className="titleCopy">0736117003</p>
-              </div>
-              <div className="copy">
-                <p className="title">Email </p>
-                <p className="titleCopy"> 200100@virtualwindow.co.za</p>
-              </div>
-              <div className="copy">
-                <p className="title">Github </p>
-                <p className="titleCopy"> 200100@virtualwindow.co.za</p>
-              </div> */}
-            </div>
+            <div className="MyInfo"></div>
           </div>
           <div className="MySkills">
             <h1 className="smalltext">My SKills</h1>
@@ -211,12 +213,31 @@ function App() {
           <div className="Main-footer-upper">
             <div className="FooterNames">
               <h1>Justin koster</h1>
-              <p>A frontend focused web and app developer.</p>
-              <p>That brings something unique to the table.</p>
+
+              <p>
+                Passionate Frontend Developer with a knack for crafting
+                immersive web and app experiences.
+              </p>
+              <p>Bringing innovation to every line of code.</p>
+
+              <br />
+              <p>Email: Jmkoster21@gmail.com</p>
             </div>
             <div className="FooterSocial">
-              {/* <h1>Social</h1>
-              <p>A frontend developer</p> */}
+              <h1>Get in touch</h1>
+
+              <a
+                href="https://www.linkedin.com/in/justin-koster-502401225/"
+                target="_blank"
+              >
+                <FaLinkedin
+                  style={{ color: "#0077b5" }}
+                  className="FooterIcon"
+                />
+              </a>
+              <a href="https://github.com/RetroPixelz" target="_blank">
+                <FaGithub style={{ color: "#181717" }} className="FooterIcon" />
+              </a>
             </div>
           </div>
           <div className="Main-footer-lower">
