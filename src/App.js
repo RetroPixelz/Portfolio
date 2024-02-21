@@ -35,14 +35,19 @@ function App() {
             <h1 className="smalltext">About me</h1>
 
             <p className="paragraph">
-              I am a third year developer finishing my degree at the Open Window
-              Institute, im a passionate young individual ready to get my career
-              going, im a fun loving young guy who enjoys connecting with people
-              and i always bring a happy vibe and big smile wherever i go.
+              I am a young Junior developer with a passion for frontend aswell
+              as mobile frameworks to create unique and appealing applications
             </p>
+            <br />
+            <br />
+
+            <h1 className="smalltext">Download cv</h1>
+            <a className="button" href="/cv.pdf" download>
+              download cv
+            </a>
 
             <div className="MyInfo">
-              <div className="copy">
+              {/* <div className="copy">
                 <p className="title">Name </p>
                 <p className="titleCopy">Justin</p>
               </div>
@@ -61,7 +66,7 @@ function App() {
               <div className="copy">
                 <p className="title">Github </p>
                 <p className="titleCopy"> 200100@virtualwindow.co.za</p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="MySkills">
@@ -100,7 +105,13 @@ function App() {
                 manage stock leels of igredients aswell as craft items based on
                 the available ingredients.
               </p>
-              <div className="button">GitHub</div>
+              <a
+                className="button"
+                href="https://github.com/RetroPixelz/WowCraft"
+                target="_blank"
+              >
+                GitHub
+              </a>
             </div>
           </div>
 
@@ -122,7 +133,13 @@ function App() {
                 also made use of IBM wattson natural language mdoel to perform
                 emotion recognition.
               </p>
-              <div className="button">GitHub</div>
+              <a
+                className="button"
+                href="https://github.com/RetroPixelz/FeelFine"
+                target="_blank"
+              >
+                GitHub
+              </a>
             </div>
           </div>
 
@@ -140,7 +157,13 @@ function App() {
                 skin designs and stand a chance to win the competition voted by
                 the community.
               </p>
-              <div className="button">GitHub</div>
+              <a
+                className="button"
+                href="https://github.com/RetroPixelz/SkinsGive"
+                target="_blank"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </div>
@@ -192,8 +215,8 @@ function App() {
               <p>That brings something unique to the table.</p>
             </div>
             <div className="FooterSocial">
-              <h1>Social</h1>
-              <p>A frontend developer</p>
+              {/* <h1>Social</h1>
+              <p>A frontend developer</p> */}
             </div>
           </div>
           <div className="Main-footer-lower">
