@@ -65,7 +65,7 @@ function App() {
             <br />
 
             {/* <h1 className="smalltext">Download cv</h1> */}
-            <a className="button" href="/cv.pdf" download>
+            <a className="button" href="/JustinCv.pdf" download>
               download cv
             </a>
 
@@ -234,7 +234,7 @@ function App() {
         <div className="Main-footer">
           <div className="Main-footer-upper">
             <div className="FooterNames">
-              <h1>Justin koster</h1>
+              <h1 className="Name">Justin koster</h1>
 
               <p>
                 Passionate Frontend Developer with a knack for crafting
@@ -246,7 +246,7 @@ function App() {
               <p>Email: Jmkoster21@gmail.com</p>
             </div>
             <div className="FooterSocial">
-              <h1>Get in touch</h1>
+              <h1 className="Name">Get in touch</h1>
 
               <a
                 href="https://www.linkedin.com/in/justin-koster-502401225/"
